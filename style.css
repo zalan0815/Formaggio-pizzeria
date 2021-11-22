@@ -7,6 +7,7 @@ h1 {
 }
 .body{
     background-image: url('https://media.istockphoto.com/photos/dark-wood-texture-background-picture-id1159655555?k=20&m=1159655555&s=170667a&w=0&h=yZpZx3tJbHpeCuqel6GVURVe6X3GcRYEysON3UXLP98=');
+    /* background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("https://media.istockphoto.com/photos/dark-wood-texture-background-picture-id1159655555?k=20&m=1159655555&s=170667a&w=0&h=yZpZx3tJbHpeCuqel6GVURVe6X3GcRYEysON3UXLP98="); */
     height: 100%;
     width: 70%;
     margin:0 auto 0 auto;
