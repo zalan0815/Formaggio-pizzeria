@@ -15,7 +15,6 @@ h1 {
     font-size: 40px;
 }
 
-<<<<<<< HEAD
 .pizzakep{
     width: 300px;
     float: left;
@@ -24,10 +23,6 @@ h1 {
 .etlapcim{
     float: right;
 }
-
-#pizzavideo{
-    width: 65%;
-=======
 h1{
     text-align: center;
     color: white;
@@ -71,5 +66,4 @@ table{
     margin-right: 20px;
     color: yellow;
     font-weight: bold;
->>>>>>> 0dfc7efaaada8c0002e050d6c4023df8511f9643
 }
