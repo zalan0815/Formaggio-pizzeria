@@ -27,6 +27,10 @@ h1 {
 .etlapcim{
     float: right;
 }
+
+#pizzavideo{
+    width: 65%;
+}
 h1{
     text-align: center;
     color: white;
