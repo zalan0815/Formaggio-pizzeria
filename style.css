@@ -14,3 +14,16 @@ h1 {
     color: white;
     font-size: 40px;
 }
+
+.pizzakep{
+    width: 300px;
+    float: left;
+}
+
+.etlapcim{
+    float: right;
+}
+
+#pizzavideo{
+    width: 65%;
+}
