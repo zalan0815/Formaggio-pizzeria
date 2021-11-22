@@ -15,6 +15,18 @@ h1 {
     font-size: 40px;
 }
 
+.pizzakep{
+    width: 300px;
+    float: left;
+}
+#pizzavideo{
+    width: 1120px;
+    height: 630px;
+    margin-left: 8%;
+}
+.etlapcim{
+    float: right;
+}
 h1{
     text-align: center;
     color: white;
