@@ -27,6 +27,10 @@ h1 {
 .etlapcim{
     float: right;
 }
+
+#pizzavideo{
+    width: 65%;
+}
 h1{
     text-align: center;
     color: white;
@@ -65,9 +69,11 @@ table{
     color: white;
     text-decoration: none;
     margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .menu span{
     margin-right: 20px;
     color: yellow;
     font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
