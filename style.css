@@ -17,15 +17,54 @@ h1 {
 }
 .pizzakep{
     width: 300px;
-    float: left;
+    float: right;
+    margin: 20px;
 }
 #pizzavideo{
     width: 1120px;
     height: 630px;
     margin-left: 17.5%;
 }
-.etlapcim{
-    float: right;
+
+.clear{
+    clear: both;
+}
+
+#etlaparelso{
+    padding-top: -40px;
+    color: red;
+
+}
+
+#etlaparmasodik{
+    color:  red;
+    margin-left: 60px;
+    margin-top: -30px;
+    margin-bottom: -15px;
+}
+
+.pizzaink{
+    font-size: 40pt;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 100px;
+}
+
+#etlapcim{
+    font-weight: bold;
+}
+
+#etlapszoveg{
+    float: left;
+    width: 50%;
+    text-align: unset;
+    margin-top: -40px;
+    margin-bottom: 1px;
+}
+
+.etlapsavok{
+    clear: both;
+    text-align: unset;
 }
 
 #pizzavideo{
@@ -39,16 +78,9 @@ h1{
 p{
     text-align: justify;
     color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.footer{
-    max-width: 1024px;
-    margin: 0 auto;
-    background-color: yellowgreen;
-    padding: 8px;
-    color:white;
-    text-align: right;
-    
-}
+
 .footer a{
     color:white;
     text-decoration: none;
@@ -59,11 +91,14 @@ table td, table th{
 table{
     border-collapse: collapse;
     margin: 0 auto;
+
 }
 .menu{
-    background-color: yellowgreen;
+    background-color: #040d15;
     color: white;
-    margin: -8px -8px 0px -8px;
+    margin: -8px -63px 0px -63px;
+    text-align: center;
+    padding-top: 5px; padding-bottom: 5px;
 }
 .menu a{
     color: white;
@@ -73,8 +108,14 @@ table{
 }
 .menu span{
     margin-right: 20px;
-    color: yellow;
-    font-weight: bold;
+    color: red;
+    font-weight: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#link{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #terkep{
@@ -101,4 +142,12 @@ table{
     }
 #rolunkcim{
     clear: both;
+}
+.cím{
+    margin-top: -500px;
+    margin-right: -220px;
+}
+#pizzaháttér{
+    margin: 50px -45px 0px 150px;
+    width: 1000px;
 }
