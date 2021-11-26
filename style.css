@@ -17,15 +17,54 @@ h1 {
 }
 .pizzakep{
     width: 300px;
-    float: left;
+    float: right;
+    margin: 20px;
 }
 #pizzavideo{
     width: 1120px;
     height: 630px;
     margin-left: 8%;
 }
-.etlapcim{
-    float: right;
+
+.clear{
+    clear: both;
+}
+
+#etlaparelso{
+    padding-top: -40px;
+    color: red;
+
+}
+
+#etlaparmasodik{
+    color:  red;
+    margin-left: 60px;
+    margin-top: -30px;
+    margin-bottom: -15px;
+}
+
+.pizzaink{
+    font-size: 40pt;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 100px;
+}
+
+#etlapcim{
+    font-weight: bold;
+}
+
+#etlapszoveg{
+    float: left;
+    width: 50%;
+    text-align: unset;
+    margin-top: -40px;
+    margin-bottom: 1px;
+}
+
+.etlapsavok{
+    clear: both;
+    text-align: unset;
 }
 
 #pizzavideo{
