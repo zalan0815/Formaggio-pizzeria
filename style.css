@@ -260,3 +260,10 @@ h2{
     font-size: 50px;
     /*margin-bottom: -60px;*/
 }
+#séf{
+    float: right;
+    height: 420px;
+    width: 620px;
+    padding: 3% 0% 5% 5%;
+    margin-bottom: -200px;
+}
