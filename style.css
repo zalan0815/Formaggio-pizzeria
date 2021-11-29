@@ -134,11 +134,23 @@ table{
         width: 100%;
         display: block;
     }
+    #rolunkkepek3{
+        width: 100%;
+        display: block;
+    }
     #rolunkkepekalairas{
         background-color: #040d15;
         color: red;
         margin: 0;
         width: 105%;
+        text-align: center;
+    }
+    #rolunkkepekalairas2{
+        background-color: #040d15;
+        color: red;
+        margin: 0;
+        width: 100%;
+        text-align: center;
     }
 #rolunkcim{
     clear: both;
