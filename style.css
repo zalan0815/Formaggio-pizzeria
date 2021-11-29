@@ -129,7 +129,7 @@ p{
     width: 1323px;
 }
 
-#vnév, #knév{
+#vnév, #knév, #telepules, #cim{
     margin-top: 25px;
     margin-left: 50px;
     padding: 15px;
@@ -142,6 +142,7 @@ p{
 
 body .body form label{
     color: white;
+    text-align: center;
 }
 
 
