@@ -34,6 +34,8 @@ a{
 }
 
 .button {
+    margin-top: 25px; ;
+    margin-left: 0px;
     padding: 20px;
     font-size: 20pt;
     background-color: white; 
