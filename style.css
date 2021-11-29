@@ -128,7 +128,7 @@ table{
 .menu{
     background-color: #040d15;
     color: white;
-    margin: -8px -63px 0px -63px;
+    margin: -8px -94px 0px -94px;
     text-align: center;
     padding-top: 5px; padding-bottom: 5px;
 }
@@ -166,11 +166,23 @@ table{
         width: 100%;
         display: block;
     }
+    #rolunkkepek3{
+        width: 100%;
+        display: block;
+    }
     #rolunkkepekalairas{
         background-color: #040d15;
         color: red;
         margin: 0;
         width: 105%;
+        text-align: center;
+    }
+    #rolunkkepekalairas2{
+        background-color: #040d15;
+        color: red;
+        margin: 0;
+        width: 100%;
+        text-align: center;
     }
 #rolunkcim{
     clear: both;
@@ -182,4 +194,12 @@ table{
 #pizzaháttér{
     margin: 50px -45px 0px 150px;
     width: 1000px;
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.kinalat{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    font-size: 50px;
 }
