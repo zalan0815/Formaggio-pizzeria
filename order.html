@@ -10,6 +10,7 @@
 <body>
     <div class="body">
         <h1 class="alahuzott">Rendelés:</h1>
+        <div class="jobboldalikep"><img src="images/viccipizza.jpg" alt="fúni kép"><img src="images/hova.png" alt="fúni kép 2"></div>
         <form action="sikeresrendeles.html">
             <h2 id="rendelescim">Adataid:</h2>
                 <label for="fname">Vezeték név:</label><br>
@@ -19,29 +20,19 @@
                 <label for="lname">Település:</label><br>
                 <input type="text" id="telepules" name="telepules" value="Győr"><br>
                 <label for="lname">Utca/Út, házszám:</label><br>
-                <input type="text" id="cim" name="cim" value="Győr, Szent István út 7"><br><br>
+                <input type="text" id="cim" name="cim" value="Szent István út 7"><br><br>
 
             <h2 id="rendelescim">Pizzák:</h2>
-                <input type="checkbox" id="pizzarendeles1" name="pizzarendeles" value="evszakokpizza">
-                <label for="pizzarendeles1">Évszakok pizza</label><br>
-
-                <input type="checkbox" id="pizzarendeles2" name="pizzarendeles" value="hawaiipizza">
-                <label for="pizzarendeles2">Hawaii pizza</label><br>
-
-                <input type="checkbox" id="pizzarendeles3" name="pizzarendeles" value="lasvegaspizza">
-                <label for="pizzarendeles3">Las Vegas pizza</label><br>
-
-                <input type="checkbox" id="pizzarendeles4" name="pizzarendeles" value="szalamispizza">
-                <label for="pizzarendeles4">Szalámis pizza</label><br>
-
-                <input type="checkbox" id="pizzarendeles5" name="pizzarendeles" value="sajtospizza">
-                <label for="pizzarendeles5">Sajtos pizza</label><br>
-
-                <input type="checkbox" id="pizzarendeles6" name="pizzarendeles" value="songokupizza">
-                <label for="pizzarendeles6">Songoku pizza</label><br>
-
-                <input type="checkbox" id="pizzarendeles7" name="pizzarendeles" value="sonkaspizza">
-                <label for="pizzarendeles7">Sonkás pizza</label><br>
+            <label for="cars">Válassz pizza-t:</label>
+            <select id="pizzak" name="pizzak">
+              <option value="evszakos">Évszakos Pizza</option>
+              <option value="hawaii">Hawaii Pizza</option>
+              <option value="lasvegas">Las Vegas Pizza</option>
+              <option value="szalamis">Szalámis Pizza</option>
+              <option value="sajtos">Sajtos Pizza</option>
+              <option value="songoku">Songoku Pizza</option>
+              <option value="sonkas">Sonkás Pizza</option>
+            </select>
 
             <h2 id="rendelescim">Méret:</h2>
                 <input type="radio" id="meret" name="meret">
