@@ -9,31 +9,40 @@
 </head>
 <body>
     <div class="body">
+
         <h1 class="alahuzott">Rendelés:</h1>
+            <div class="jobboldalikep">
+                <img src="images/viccipizza.jpg" alt="fúni kép">
+            </div>
+
+            <div class="jobboldalikep2">
+                <img src="images/hova.png" alt="fúni kép 2">
+            </div>
+            
         <div class="jobboldalikep"><img src="images/viccipizza.jpg" alt="fúni kép"></div>
         <div class="jobboldalikep"><img src="images/hova.png" alt="fúni kép 2"></div>
         <form action="sikeresrendeles.html">
             <h2 id="rendelescim">Adataid:</h2>
                 <label for="fname">Vezeték név:</label><br>
-                <input type="text" id="vnév" name="vnév" value="Kiss"><br>
+                    <input type="text" id="vnév" name="vnév" value="Kiss"><br>
                 <label for="lname">Keresztnév:</label><br>
-                <input type="text" id="knév" name="knév" value="Pista"><br>
+                    <input type="text" id="knév" name="knév" value="Pista"><br>
                 <label for="lname">Település:</label><br>
-                <input type="text" id="telepules" name="telepules" value="Győr"><br>
+                    <input type="text" id="telepules" name="telepules" value="Győr"><br>
                 <label for="lname">Utca/Út, házszám:</label><br>
-                <input type="text" id="cim" name="cim" value="Szent István út 7"><br><br>
+                    <input type="text" id="cim" name="cim" value="Szent István út 7"><br><br>
 
             <h2 id="rendelescim">Pizzák:</h2>
-            <label for="cars">Válassz pizza-t:</label>
-            <select id="pizzak" name="pizzak">
-              <option value="evszakos">Évszakos Pizza</option>
-              <option value="hawaii">Hawaii Pizza</option>
-              <option value="lasvegas">Las Vegas Pizza</option>
-              <option value="szalamis">Szalámis Pizza</option>
-              <option value="sajtos">Sajtos Pizza</option>
-              <option value="songoku">Songoku Pizza</option>
-              <option value="sonkas">Sonkás Pizza</option>
-            </select>
+                <label for="cars">Válassz pizza-t:</label>
+                    <select id="pizzak" name="pizzak">
+                    <option value="evszakos" id="option">Évszakos Pizza</option>
+                    <option value="hawaii" id="option">Hawaii Pizza</option>
+                    <option value="lasvegas" id="option">Las Vegas Pizza</option>
+                    <option value="szalamis" id="option">Szalámis Pizza</option>
+                    <option value="sajtos" id="option">Sajtos Pizza</option>
+                    <option value="songoku" id="option">Songoku Pizza</option>
+                    <option value="sonkas" id="option">Sonkás Pizza</option>
+                    </select>
 
             <h2 id="rendelescim">Méret:</h2>
                 <input type="radio" id="meret" name="meret">
@@ -41,7 +50,8 @@
                 
                 <input type="radio" id="meret2" name="meret">
                 <label for="meret2">32 cm</label><br>
-                <input class="submit" type="submit" value="Rendelés">
+
+            <input class="submit" type="submit" value="Rendelés">
         </form> 
 </body>
 </html>
