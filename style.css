@@ -195,6 +195,9 @@ table{
     margin-right: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+    .menu a:hover{
+        color: rgb(255, 127, 127);
+    }
 
 .jobboldalikep img{
     width: 500px;
