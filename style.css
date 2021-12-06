@@ -219,11 +219,14 @@ table{
 
 #link{
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
     font-style: italic;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 50px;
 }
+    #link:hover{
+        color: red;
+    }
 
 #pizzak{
     margin-top: 25px;
@@ -311,6 +314,7 @@ table{
 #pizzaháttér{
     margin: 50px -45px 0px 150px;
     width: 1000px;
+    border-radius: 3S0px;
 }
 
 h2{
