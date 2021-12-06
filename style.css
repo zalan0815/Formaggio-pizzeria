@@ -267,9 +267,21 @@ table{
     }
 
     #rolunkkepek3{
-        width: 100%;
+        opacity: 0;
         display: block;
+        width: 100%;
     }
+
+    .rolunkkepek3{
+        float: right;
+        width: 60%;
+        height: 20%;
+        background-image: url(pizza-chef.jpg);
+        background-size: cover;
+    }
+        .rolunkkepek3:hover{
+            background-image: url(images/shefek.jpg);
+        }
 
     #rolunkkepekalairas{
         background-color: #040d15;
